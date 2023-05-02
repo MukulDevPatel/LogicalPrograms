@@ -1,0 +1,15 @@
+D:\BridgeLabz Second batch\LogicalPrograms\bin\Debug\net6.0\LogicalPrograms.exe
+D:\BridgeLabz Second batch\LogicalPrograms\bin\Debug\net6.0\LogicalPrograms.deps.json
+D:\BridgeLabz Second batch\LogicalPrograms\bin\Debug\net6.0\LogicalPrograms.runtimeconfig.json
+D:\BridgeLabz Second batch\LogicalPrograms\bin\Debug\net6.0\LogicalPrograms.dll
+D:\BridgeLabz Second batch\LogicalPrograms\bin\Debug\net6.0\LogicalPrograms.pdb
+D:\BridgeLabz Second batch\LogicalPrograms\obj\Debug\net6.0\LogicalPrograms.csproj.AssemblyReference.cache
+D:\BridgeLabz Second batch\LogicalPrograms\obj\Debug\net6.0\LogicalPrograms.GeneratedMSBuildEditorConfig.editorconfig
+D:\BridgeLabz Second batch\LogicalPrograms\obj\Debug\net6.0\LogicalPrograms.AssemblyInfoInputs.cache
+D:\BridgeLabz Second batch\LogicalPrograms\obj\Debug\net6.0\LogicalPrograms.AssemblyInfo.cs
+D:\BridgeLabz Second batch\LogicalPrograms\obj\Debug\net6.0\LogicalPrograms.csproj.CoreCompileInputs.cache
+D:\BridgeLabz Second batch\LogicalPrograms\obj\Debug\net6.0\LogicalPrograms.dll
+D:\BridgeLabz Second batch\LogicalPrograms\obj\Debug\net6.0\refint\LogicalPrograms.dll
+D:\BridgeLabz Second batch\LogicalPrograms\obj\Debug\net6.0\LogicalPrograms.pdb
+D:\BridgeLabz Second batch\LogicalPrograms\obj\Debug\net6.0\LogicalPrograms.genruntimeconfig.cache
+D:\BridgeLabz Second batch\LogicalPrograms\obj\Debug\net6.0\ref\LogicalPrograms.dll
