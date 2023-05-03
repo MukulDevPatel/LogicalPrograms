@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Logical Programs");
-            Console.WriteLine("Perfect Number");
-            PerfectNumber.FindPerfectNum();
+            Console.WriteLine("Reverse Number");
+            ReverseNumber.ReverseNum();
         }
     }
 }
