@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Logical Programs");
-            Fibonacci.FibonacciNumber();
+            Console.WriteLine("Perfect Number");
+            PerfectNumber.FindPerfectNum();
         }
     }
 }
