@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Logical Programs");
-            Console.WriteLine("Reverse Number");
-            ReverseNumber.ReverseNum();
+            Console.WriteLine("Prime Number");
+            PrimeNumber.PrimeNum();
         }
     }
 }
