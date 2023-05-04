@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Logical Programs");
-            Console.WriteLine("Prime Number");
-            PrimeNumber.PrimeNum();
+            Console.WriteLine("Stop Watch Program");
+            StopWatch.Elapsed();
         }
     }
 }
