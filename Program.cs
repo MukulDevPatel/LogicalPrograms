@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Logical Programs");
-            Console.WriteLine("Newton Sqrt Method");
-            NewtonSqrt.NewtonMethod();
+            Console.WriteLine("Convert decimal to binary number");
+            ConvertIntoBinary.ToBinary();
 
 
         }
