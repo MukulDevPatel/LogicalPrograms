@@ -33,7 +33,7 @@ namespace LogicalPrograms
             {
                 for (int j = 0; j < count[i]; j++)
                 {
-                    Console.Write(notes[i] + " " + "\n");
+                    Console.Write(notes[i] + " ");
                 }
             }
         }
