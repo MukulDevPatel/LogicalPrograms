@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Logical Programs");
-            Console.WriteLine("Calculate Monthly payment");
-            Util.Calculate();
+            Console.WriteLine("Newton Sqrt Method");
+            NewtonSqrt.NewtonMethod();
 
 
         }
