@@ -5,8 +5,9 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Logical Programs");
-            Console.WriteLine("Stop Watch Program");
-            StopWatch.Elapsed();
+            Console.WriteLine("Temperature conversion");
+            Util.temperaturConversion();
+            
         }
     }
 }
