@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Logical Programs");
-            Console.WriteLine("Vending Machine");
-            VendingMachine.GetChange();
+            Console.WriteLine("Day Of Week");
+            Util.FindDay();
 
 
         }
