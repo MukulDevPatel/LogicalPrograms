@@ -8,53 +8,26 @@ namespace LogicalPrograms
 {
     public class Util
     {
-        public static void dayOfWeek(int m, int d, int y)
+        public static double MonthlyPayment(double principal, int years, double interestRate)
         {
-            int y0 = y - (14 - m) / 12;
-            int x = y0 + y0 / 4 - y0 / 100 + y0 / 400;
-            int m0 = m + 12 * ((14 - m) / 12) - 2;
-            int d0 = (d + x + 31 * m0 / 12) % 7;
-
-            switch (d0)
-            {
-                case 0:
-                    Console.Write("Sunday ");
-                    break;
-                case 1:
-                    Console.Write("Monday ");
-                    break;
-                case 2:
-                    Console.Write("Tuesday ");
-                    break;
-                case 3:
-                    Console.Write("Wdnesday ");
-                    break;
-                case 4:
-                    Console.Write("Thursday ");
-                    break;
-                case 5:
-                    Console.WriteLine("Friday ");
-                    break;
-                case 6:
-                    Console.Write("Saturday ");
-                    break;
-                default:
-                    Console.Write("Enter a valid number");
-                    return;
-            }
-            string dayOfWeek = " ";
-            Console.WriteLine("{0}  {1}", d0, dayOfWeek);
+            int n = 12 * years;
+            double r = interestRate / (12 * 100);
+            double denominator = 1 - Math.Pow(1 + r, -n);
+            double monthlyPayment = (principal * r) / denominator;
+            return monthlyPayment;
         }
-        public static void FindDay()
+        public static void Calculate()
         {
-            Console.Write("Enter a Date: ");
-            int d = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter a number of Month: ");
-            int m = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter a Year: ");
-            int y = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter Value of P: ");
+            double principal = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter year value: ");
+            int years = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter interest rate: ");
+            double interestRate = Convert.ToDouble(Console.ReadLine());
 
-            Util.dayOfWeek(m, d, y);
+            double monthlyPayment = Util.MonthlyPayment(principal, years, interestRate);
+
+            Console.WriteLine("Monthly payment: {0}", monthlyPayment);
         }
     }
 }

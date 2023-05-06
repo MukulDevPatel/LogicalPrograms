@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Logical Programs");
-            Console.WriteLine("Day Of Week");
-            Util.FindDay();
+            Console.WriteLine("Calculate Monthly payment");
+            Util.Calculate();
 
 
         }
